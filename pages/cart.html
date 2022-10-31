@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart items</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/ecommerce.css">
+    
+</head>
+<body onload="Cart()">
+   
+   <div id="cardBox"> 
+    <!-- js -->
+   </div> 
+            
+    <div class=" container me-4 p-4">
+      <label for="total" class="form-label m-3 "><h1>Total Amount:</h1> </label><br>
+      <input type="number"
+      class="form-control m-3 w-25 " name="total" id="total" value="" placeholder="0" disabled aria-describedby="helpId" >
+      <button type="button" id="checkout" class="btn btn-primary">check out</button>
+    </div>
+    
+    <script src="/public/js/ecommerce.js"></script>
+</body>
+</html>

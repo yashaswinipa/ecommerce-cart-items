@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="/public/assets/css/ecommerce.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/public/js/ecommerce.js"></script>
+
+</head>
+<body>
+    <div class="registration">
+        <table>
+            <tbody>
+                <h1>REGISTER HERE</h1><br>
+
+                <tr>
+                <td><label>User name :</label></td>
+                <td><input type="text" id="name"  placeholder="name"/></td>
+                </tr>
+            
+                <td><label>Age :</label></td>
+                <td><input type="number" id="age"  placeholder="00"/></td>
+                </tr>
+            
+                <tr>
+                <td><label>Phone : </label></td>
+                <td><input type="number" id="no"  placeholder="0000000000"/></td>
+                </tr>
+                
+                <tr>
+                <td><label>Email :</label></td>
+                <td><input type="email" id="email"  placeholder="xyz@gmail.com"/></td>
+                </tr>
+
+                <tr>
+                    <td><label>Password:</label></td>
+                    <td><input type="password" id="password" placeholder="******"/></td>
+                </tr>
+
+                <tr>
+                    <td><label id="gen">Gender: </label></td>
+                    <td>
+                        <input type="radio" name="gender" id="male" value="male" checked>Male
+                        <input type="radio" name="gender" id="female" value="female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td><button type="button" onclick="register()">Register</button></td>
+                </tr>
+                <tr>
+                    <td><a href="/pages/login.html" target="_blank">login page</a></td>    
+                </tr>
+                
+            </tbody>
+        </table>  
+    </div>     
+</body>
+</html>
